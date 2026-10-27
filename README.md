@@ -1,37 +1,30 @@
-# Modelagem Oficina Mecanica
-Projeto de Modelagem Conceitual de Banco de Dados para Oficina Mecânica.
+# Modelagem de Banco de Dados — Oficina Mecânica
 
-## Descrição
-Este projeto envolve a criação de um modelo conceitual de banco de dados para gerenciar eficientemente as operações de uma oficina mecânica. O modelo inclui tabelas essenciais para armazenar informações sobre clientes, mecânicos e ordens de serviço (OS), além de outros detalhes operacionais.
+Este foi um projeto acadêmico de modelagem conceitual de banco de dados. Escolhi uma oficina mecânica como cenário, o que tornou o exercício mais próximo de uma área que conheço na prática.
 
-## Estrutura do Banco de Dados
-### Entidades Principais:
-- **Clientes**:
-  - Nome
-  - Endereço
-  - Modelo do veículo
-  - Telefone
-  - CPF
-- **Mecânicos**:
-  - Nome
-  - Endereço
-  - Especialidade
-- **Ordens de Serviço (OS)**:
-  - Id. da OS
-  - Serviço
-  - Valor da mão de obra (MDO)
-  - Valor das peças
-  - Data de emissão
-  - Data de entrega
-  - Modelo do veículo
-  - Tempo de execução do serviço
-  - Mecânico responsável
-  - Status de aprovação do orçamento
-  - Status do serviço
+A proposta foi pensar em como organizar as principais informações necessárias para acompanhar clientes, mecânicos, serviços e ordens de serviço dentro de uma estrutura de dados.
 
-## Objetivo
-O objetivo principal deste projeto é criar uma base de dados que possibilite a gestão eficiente dos clientes e suas respectivas ordens de serviço, garantindo uma operação fluida e bem documentada dentro da oficina mecânica.
+## Principais entidades
 
-## Ferramentas Utilizadas
-- **MySQL Workbench**: Utilizado para criar e visualizar o modelo conceitual do banco de dados.
-- **PDF**: Simples visualização.
+O modelo inclui informações relacionadas a:
+
+- clientes;
+- mecânicos e suas especialidades;
+- ordens de serviço;
+- serviços executados;
+- peças e valores;
+- datas de emissão e entrega;
+- responsáveis pela execução;
+- aprovação de orçamento e status do serviço.
+
+## O que pratiquei
+
+O exercício me ajudou a entender melhor a construção de entidades, atributos e relacionamentos e, principalmente, a ligação entre **regra de negócio e estrutura de dados**.
+
+## Ferramenta utilizada
+
+O modelo foi desenvolvido no **MySQL Workbench**.
+
+## Sobre o projeto
+
+É um projeto de estudo e faz parte da minha formação em banco de dados. Não é um sistema de oficina em produção; o objetivo aqui é registrar a modelagem e meu aprendizado.
